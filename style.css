@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif; 
+    height: 100vh;
+}
+
+.div1 {
+    background-color: hsl(216, 50%, 16%);
+    width: 432px;
+    height: 670px;
+    margin: 1rem auto;
+    padding: 1.8rem;
+    border-radius: 1rem;
+    text-align: left;
+}
+
+.top {
+    width: 372px;
+    height: 372px;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+}
+/* 
+.img1:hover {
+    filter: hue-rotate(180deg);
+} */
+
+.img-overlay {
+    position: relative;
+    bottom: 372px;
+    width: 372px;
+    height: 372px;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 0.5rem;
+}
+
+.img-overlay:hover {
+    background-color: hsla(178, 100%, 50%, 0.541);
+    cursor: pointer;
+    background-image: url('./images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.p1 {
+    color: hsl(215, 51%, 70%) ;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.s1 {
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+}
+
+.s2 {
+    color: hsl(215, 51%, 70%);
+    text-align: right;
+}
+
+.p2 { 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.p2span1, .p2span2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.img2 {
+    width: 10px;
+}
+
+.p3 {
+    padding-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.p3a {
+    color: hsl(215, 51%, 70%) ;
+    text-decoration: none;
+}
+
+.p3b {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.p3b:hover {
+    color: cyan;
+}
+
+
+.img3 {
+    width: 30px;
+    outline: 2px solid white;
+    border-radius: 50%;
+}
+
+.img4 {
+    width: 20px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
